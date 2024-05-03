@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- boostrap cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- boostrap icon -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.2/font/bootstrap-icons.min.css"
+        integrity="sha512-D1liES3uvDpPrgk7vXR/hR/sukGn7EtDWEyvpdLsyalQYq6v6YUsTUJmku7B4rcuQ21rf0UTksw2i/2Pdjbd3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- mystylesheet -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- ----media query -->
+    <link rel="stylesheet" href="media.css">
+
+
+    <title>Porfolio</title>
+</head>
+
+<body onload="showTime()">
+
+    <div id="minicircle">
+    </div>
+
+    <!-- ================= navbar ========== -->
+
+
+    <header id="Header" class="header_wraper">
+        <nav class="navbar navbar-expand-lg navbar-light bg-black px-5" id="header-scrolled">
+            <div class="container-fluid px-5">
+
+                <a class="navbar-brand" id="list" href="#">Rizwan Abro</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto mb-2 mb-lg-0 ul-list">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" id="list" href="#Home">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" id="list" href="#About">About</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" id="list" href="#Portfolio">Project</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" id="list" href="#Service">Service</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" id="list" href="#Contact">Contact</a>
+                        </li>
+                    </ul>
+
+                    <label for="moon-icon" class="dark-toggle">
+                        <img src="images/sun.png" class="img-fluid" id="moon-icon">
+                    </label>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+
+
+    <!-- =======HOme  section=============== -->
+    <section id="Home" class="Home_wraper">
+        <div class="container">
+            <div class="row d-flex  justify-content-center align-items-start mt-3">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 mt-5 pt-5">
+
+                    <div class="bounding">
+                        <h4 class="leftside boundingelem">Hello, It's Me</h4>
+                    </div>
+                    <div class="bounding">
+                        <h1 class="boundingelem">Rizwan Abro</h1>
+                    </div>
+                    <div class="bounding">
+                        <h5 class="boundingelem">I'm<span class="auto-type"></span></h5>
+                    </div>
+                    <div class="bounding">
+                        <p class="boundingelem">
+                            Welcome to my digital space! A frontend developer passionate about transforming ideas
+                            into visually stunning and user-friendly web experiences. With a focus on clean code and
+                            innovative design, I bring creativity and technical expertise to every project.
+                        </p>
+                    </div>
+                    <div class="bounding">
+                        <button class="btn btn-anim ">
+                            <a href="#Contact">Hire me</a>
+                        </button>
+                    </div>
+
+                    <div class="bounding">
+                        <div class="icons">
+                            <a href="https://www.facebook.com/" class="btn-anim"> <i class="bi bi-facebook"></i></a>
+                            <a href="https://www.instagram.com/" class="btn-anim"><i class="bi bi-instagram"></i></a>
+                            <a href="https://pk.linkedin.com/" class="btn-anim"><i class="bi bi-linkedin "></i></a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col col-12 col-sm-12 col-md-6 col-lg-6 mt-sm-5">
+                    <div class="img-anim">
+                        <div class="rightside">
+                            <img src="images/Rizwanaliabro.png.jpg" alt="" class="img-fluid image ">
+                            <div class="imagehover"></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="bounding">
+                <a href="#" class="circle btn-anim"><i class="bi bi-arrow-up-short"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!--============== about section ======================-->
+
+    <section id="About" class="about_wraper">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                    <div class="about-image">
+                        <div class="abt-image  about-anim"></div>
+                        <!-- <div class="circle-spin"></div> -->
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 mt-sm-5">
+                    <div class="about-heading">
+                        <h2 class="text-center abouthidden">About Me</h2>
+                        <p class="text-center  abouthidden">
+                            Passionate frontend developer with 1 years of experience, turning design ideas into
+                            user-friendly websites with a creative touch.
+                        </p>
+                    </div>
+
+                    <div class="about-rightside">
+                        <div class="rightsideAnim">
+                            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="pills-education-tab" data-bs-toggle="pill"
+                                        data-bs-target="#pills-education" type="button" role="tab"
+                                        aria-controls="pills-education" aria-selected="true">Education</button>
+                                </li>
+
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link active" id="pills-skill-tab" data-bs-toggle="pill"
+                                        data-bs-target="#pills-skill" type="button" role="tab"
+                                        aria-controls="pills-skill" aria-selected="false">Skill</button>
+                                </li>
+                            </ul>
+                            <div class="tab-content" id="pills-tabContent">
+                                <div class="tab-pane fade" id="pills-education" role="tabpanel"
+                                    aria-labelledby="pills-education-tab">
+                                    <ul class="text-start ps-0">
+                                        <li>
+                                            <a href="#">
+                                                Matriculation <span> Board of Secondary Education</span>
+                                                2015
+                                            </a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#">
+                                                I.COM (Intermediate) <span> Board of Secondary Education</span>
+                                                2018
+                                            </a>
+
+                                        </li>
+
+                                        <li>
+                                            <a href="#">
+                                                B.COM (Bachelor of Commerce) <span>University of Karachi</span>
+                                                2021
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <!-- ==================skills  -->
+
+                                <div class="tab-pane fade show active" id="pills-skill" role="tabpanel"
+                                    aria-labelledby="pills-skill-tab">
+
+                                    <div class="single-progress">
+                                        <h6>HTML</h6>
+                                        <div class="meter">
+                                            <span style="width:95%;"><span class="progress"></span></span>
+                                        </div>
+                                        <span class="label">95%</span>
+                                    </div>
+
+                                    <div class="single-progress">
+                                        <h6>CSS</h6>
+
+                                        <div class="meter">
+                                            <span style="width:80%;"><span class="progress"></span></span>
+                                        </div>
+                                        <span class="label">80%</span>
+                                    </div>
+
+                                    <div class="single-progress">
+                                        <h6>JAVA SCRIPT</h6>
+
+                                        <div class="meter">
+                                            <span style="width:50%;"><span class="progress"></span></span>
+                                        </div>
+                                        <span class="label">50%</span>
+
+                                    </div>
+
+                                    <div class="single-progress">
+                                        <h6>BOOTSTRAP</h6>
+
+                                        <div class="meter">
+                                            <span style="width:90%;"><span class="progress"></span></span>
+                                        </div>
+                                        <span class="label">90%</span>
+                                    </div>
+
+                                    <div class="single-progress">
+                                        <h6>DESIGNING</h6>
+
+                                        <div class="meter">
+                                            <span style="width:70%;"><span class="progress"></span></span>
+                                        </div>
+                                        <span class="label">70%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- -=--===================== portfolio section====================== -->
+    <section id="Portfolio" class="portfolio_wraper">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="portfolioAnim">
+                        <h2 class="headingAnim">My Projects</h2>
+                    </div>
+
+                    <div class="portfolioAnim">
+                        <p class="headingAnim"> My portfolio highlights a collection of projects that embody precision,
+                            creativity, and an unwavering commitment to elevating the user experience.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cardAnim">
+
+                <div class="row">
+                    <div class="col-lg-3 col-sm-6 mb-4 hiddenCard">
+                        <div class="card">
+                            <span style="background-image: url(projects/Pro\ able.png);"></span>
+
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-3 col-sm-6 mb-4 hiddenCard">
+                        <div class="card">
+                            <span style="background-image: url(projects/nexcent.png);"></span>
+                        </div>
+                    </div>
+
+
+
+                    <div class="col-lg-3 col-sm-6 mb-4 hiddenCard">
+                        <div class="card">
+                            <span style="background-image: url(projects/to-do\ list\ \(2\).png);"></span>
+                        </div>
+                    </div>
+
+
+
+                    <div class="col-lg-3 col-sm-6 mb-4 hiddenCard ">
+                        <div class="card">
+                            <span style="background-image: url(projects/tic-tac\ toe.png);">
+
+                            </span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="Service" class="service-wraper">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="anim-service">
+                        <h2 class="service-heading "> My Services</h2>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-4">
+                    <div class="card-anim">
+                        <div class="card h-100 card-box-anim">
+                            <div class="img-thumbnail">
+                                <img class="img-fluid" src="images/design.png" alt="">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">UI/UX Design and Development</h5>
+                                <p>
+                                    "UI/UX Design and Development is like making digital spaces easy and fun to use, so
+                                    when you click or tap, everything just feels right!"</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-4">
+                    <div class="card-anim">
+                        <div class="card h-100 card-box-anim">
+                            <div class="img-thumbnail">
+                                <img class="img-fluid" src="images/web.png" alt="">
+                            </div>
+
+                            <div class="card-body">
+                                <h5 class="card-title">HTML5/CSS Development</h5>
+                                <p>
+                                    "HTML5/CSS development involves using coding languages to build and style websites,
+                                    creating the visual and structural elements that users see and interact with on the
+                                    internet."</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-12 col-sm-6 col-md-6  col-lg-4 mb-4">
+                    <div class="card-anim">
+                        <div class="card h-100 card-box-anim">
+                            <div class="img-thumbnail">
+                                <img class="img-fluid" src="images/responsive-design.png" alt="">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Responsive Design</h5>
+                                <p>
+                                    "Responsive design ensures websites and apps look good and work well on any device,
+                                    adapting to different screen sizes for a smooth user experience."</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-12  col-sm-6 col-md-6 col-lg-4 mb-0">
+                    <div class="card-anim">
+                        <div class="card h-100 card-box-anim">
+                            <div class="img-thumbnail">
+                                <img class="img-fluid" src="images/mobile-development.png" alt="">
+                            </div>
+                            <div class="card-body">
+
+                                <h5 class="card-title">Web App Interface Development</h5>
+                                <p>
+                                    "Web App Interface Development involves designing and building the user-friendly
+                                    visual elements of a website or application to ensure a smooth and enjoyable user
+                                    experience."</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+                    <div class="card-anim">
+                        <div class="card h-100 card-box-anim">
+                            <div class="img-thumbnail">
+                                <img class="img-fluid" src="images/cross-platform.png" alt="">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Cross-Browser Compatibility</h5>
+                                <p>
+                                    "Cross-Browser Compatibility ensures that a website or application works smoothly
+                                    and consistently across different web browsers, providing a seamless user experience
+                                    for everyone."</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="col-12 col-sm-6 col-md-6 col-lg-4 ">
+                    <div class="card-anim">
+                        <div class="card h-100 card-box-anim">
+                            <div class="img-thumbnail">
+                                <img class="img-fluid" src="images/coding.png" alt="">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Single page development</h5>
+                                <p>"Single page development simplifies websites by condensing all content into one page
+                                    for a smooth, seamless user experience without the need for multiple page reloads."
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ============================contact -->
+
+    <section id="Contact" class="contact_wraper">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                    <div class="contactAnim">
+                        <h2 class="contact-heading">Talk to me</h2>
+                    </div>
+
+
+
+                    <div class="boxAnim">
+                        <div class="box1">
+                            <div class="card">
+                                <i class="bi bi-envelope I_con"></i>
+                                <h4>Email</h4>
+                                <a href="mailto:rizwanabro14@gmail.com">rizwanabro14@gmail.com</a>
+                                <p>Write me<i class="bi bi-arrow-right-short"></i></p>
+                            </div>
+
+                        </div>
+                        <div class="box mt-4  box1">
+                            <div class="card">
+                                <i class="bi bi-whatsapp  I_con"></i>
+                                <h4>Whatsapp</h4>
+                                <a href="https://api.whatsapp.com/send?phone=+923330366421&text=Send">03330366421</a>
+                                <p>Write me <i class="bi bi-arrow-right-short"></i></p>
+                            </div>
+                        </div>
+                        <div class="box mt-4  box1">
+                            <div class="card">
+                                <i class="bi bi-messenger I_con"></i>
+                                <h4>Messengre</h4>
+                                <a href="https://www.messenger.com/t/rezwanali.abro">Rizwan Abro</a>
+                                <p>Write me <i class="bi bi-arrow-right-short"></i></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col col-md-6 col-lg-6">
+                    <div class="contactAnim">
+                        <h2 class="contact-heading">Write me your project</h2>
+                    </div>
+
+                    <form class="formAnim" onsubmit="emailSend(); reset(); return false;">
+
+                        <div class="inputAnim">
+
+                            <div class="form-floating">
+                                <label for="name">Your Name</label>
+                                <input type="text" class="form-control" id="name" name="name"
+                                    placeholder="Insert your Name" required>
+                            </div>
+
+
+                            <div class="form-floating">
+                                <label for="floatingInput">Email address</label>
+                                <input type="email" class="form-control" id="floatingInput"
+                                    aria-describedby="emailHelp" name="floatingInput"
+                                    placeholder="Insert your email" required>
+                            </div>
+
+
+                            <div class="form-floating">
+                                <label for="subject">Subject</label>
+                                <input type="text" class="form-control" class="subject" id="subject"
+                                    aria-describedby="emailHelp" name="Subject" placeholder="Insert your email"
+                                    required>
+                            </div>
+
+                            <div class="form-floating">
+                                <label for="message">Project</label>
+                                <textarea class="form-control" rows="10" cols="4" id="message" name="project"
+                                    placeholder="write your project"></textarea>
+                            </div>
+
+                            <button type="submit" class="btn" id="bttn">Send Message <i class="bi bi-send"></i></button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- 
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <h2> <span>R</span>izwan Abro</h2>
+                    <p>Copyright 2023 All rights reserved!</p>
+
+
+                </div>
+            </div>
+
+        </div>
+    </footer> -->
+
+
+
+
+
+    <!--================ font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--=================== boostrap javascript link  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+
+    <!-- ----------------smpt.js -->
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+
+
+
+
+    <!--=----------------------- sweetalert -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+
+    <!-- circle gsap -->
+    <!-- <script src="https://unpkg.com/gsap@3.9.0/dist/gsap.min.js"></script> -->
+
+
+    <!-- ======================gsap link =================-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"
+        integrity="sha512-EZI2cBcGPnmR89wTgVnN3602Yyi7muWo8y1B3a8WmIv1J9tYG+udH4LvmYjLiGp37yHB7FfaPBo8ly178m9g4Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Scrolltrigger -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollTrigger.min.js"
+        integrity="sha512-OzC82YiH3UmMMs6Ydd9f2i7mS+UFL5f977iIoJ6oy07AJT+ePds9QOEtqXztSH29Nzua59fYS36knmMcv79GOg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- ------------------------jquery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+
+
+    <!-- ======================= my javascript -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
